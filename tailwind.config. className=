@@ -1,0 +1,244 @@
+ts">
+import type { Config } fromСтатус:</span>
+                  <Badge "tailwindcss";
+
+export default {
+	 className="bg-yellow-600 textdarkMode: ["class"],
+	content:-white">Золотой</Badge>
+                </div>
+              </CardContent> [
+		"./pages/**/*.{ts
+            </Card>
+          </div>
+
+          ,tsx}",
+		"./components/**/*.{/* Main Content */}
+          <div className{ts,tsx}",
+		"./app/**="lg:col-span-3">
+            /*.{ts,tsx}",
+		"./src/**/*.{ts,tsx}"<h1 className="text-3xl font-bol
+	],
+	prefix: "",
+	theme: {
+		containerd text-white mb-8">: {
+			center: true,Личный кабин
+			padding: '2rem',
+			ет</h1>screens: {
+				'2xl
+
+            <Tabs default': '1400px'
+			}Value="bookings" className="w-full">
+              <TabsList className="grid w-full grid-cols-3 bg-slate-800">
+                <TabsTrigger value="bookings" className="text
+		},
+		extend: {-slate-300 data-[state=
+			colors: {
+				// Existing colors
+				border: 'hactive]:text-white">
+                  Мsl(var(--border))',
+				input: 'hsl(var(--input))',
+				ring: 'hsl(ои бронированияvar(--ring))',
+				
+                </TabsTrigger>background: 'hsl(var(--background))',
+				fore
+                <TabsTrigger value="profile" className="text-slate-300ground: 'hsl(var data-[state=active]:text-white">
+                  (--foreground))',
+				primary: {
+					DEFAULT: Профиль
+                'hsl(var(--primary))',
+					foreground: 'hsl(var(--primary</TabsTrigger>
+                <TabsTrigger value="settings"-foreground))'
+				},
+				secondary: className="text-slate-300  {
+					DEFAULT: 'hsl(var(--secondary))',data-[state=active]:text-white">
+                  Наст
+					foreground: 'hsl(var(--secondary-foreройки
+                </TabsTrigger>
+              </TabsList>
+
+              <TabsContent value="bookingsground))'
+				},
+				" className="mt-6">destructive: {
+					DEFAULT: 'hsl
+                <div className="space-y-4">
+                  {book(var(--destructive))',
+					foreground: 'hsl(var(--destructive-foreground))'
+				},
+				muted: {
+					DEFAULTingHistory.map((booking) => (
+                    <Car: 'hsl(var(--muted))',
+					foreground: 'hsl(vard key={booking.id} className="(--muted-foreground))'
+				},
+				accent:bg-slate-800 border-slate-700">
+                       {
+					DEFAULT: 'hsl(var(--accent))',
+					foregroun<CardContent className="p-d: 'hsl(var(--accent-fore6">
+                        <div className="flex items-center justify-ground))'
+				},
+				popover: {
+					DEFAULT: 'hslbetween">
+                          <div className(var(--popover))',
+					foreground: 'h="flex items-center space-x-4sl(var(--popover-">
+                            <img 
+                              src={booking.image}foreground))'
+				},
+				card: { 
+                              alt={booking
+					DEFAULT: 'hsl(var(--card))',.car}
+                              className
+					foreground: 'hsl(var(--card-foreground))'
+				="w-16 h-10 object-cover},
+				sidebar: {
+					 rounded"
+                            />
+                            <div>
+                              <h3DEFAULT: 'hsl(var(--sidebar- className="text-white fontbackground))',
+					-semibold">{booking.foreground: 'hsl(var(--sidebar-foreground)car}</h3>
+                              <p className=")',
+					primary: 'hsl(vartext-slate-400 text-(--sidebar-primary))',
+					'primary-sm">{booking.dates}</p>
+                            </div>
+                          </div>
+                          <div className="text-right">
+                            <Badge className={getStatusColor(booking.status)}>
+                              {booking.status}
+                            </Badge>
+                            foreground': 'hsl(var(--sidebar-primary-foreground))',<p className="text-white font-semibol
+					accent: 'hsl(var(--sidebar-accent))',
+					'accentd mt-2">
+                              -foreground': 'hsl(var(--sidebar-accent-foreground))',
+					border: 'hsl(var(₽{booking.price.toLocaleString()}
+                            </p>
+                --sidebar-border))',
+					          </div>
+                        </div>
+                ring: 'hsl(var      </CardContent>
+                    </Card>(--sidebar-ring))'
+				},
+				// Automotive
+                  ))}
+                </div theme colors
+				automotive: {
+					midnight: '#0F1419',
+					graph>
+              </TabsContent>ite: '#1A1F2C',
+					
+
+              <TabsContent value="profile"steel: '#2A3 className="mt-6">
+                <Car441',
+					silver: '#8d className="bg-slate-800 border-slate-E9196',
+					chrome: '#C700">
+                  <CardHeader>
+                    <CardTitle className="text-white">Перс8CDD4',
+					platinum: '#E8ональная информация</CarEAED',
+					electric: '#0dTitle>
+                  </CardHeader>
+                  EA5E9',
+					n<CardContent className="space-y-4">
+                    <div className="grid grid-cols-2eon: '#33C3F0', gap-4">
+                      <div>
+					accent: '#1
+                        <label className="text-EAEDB',
+					luxury: '#7Eslate-300 text-sm">69AB',
+					premium: '#9Имя</label>
+                        <pb87f5'
+				} className="text-white">Иван</p>
+                      </div>
+			},
+			fontFamily: {
+                      <div>
+                        <label className="text-slate-300 text-sm">Фамилия</label>
+                        <p
+				'montserrat': ['Montserrat', 'sans className="text-white">И-serif'],
+				'roboto': ['Roboto', 'sans-serif']
+			},ванов</p>
+                      </div>
+			backgroundImage: {
+				'automotive-gradient': 'linear-gradient
+                    </div>
+                    <div(135deg, #0F1>
+                      <label className="text419 0%, #1A1F2C 25%, #2A-slate-300 text-sm">Email3441 50%, #1A1F2C 75%, #0F1</label>
+                      <p className419 100%)',
+				'="text-white">ivan@example.com</p>
+                    </div>
+                    <divchrome-gradient': 'linear-gradient>
+                      <label className="text-slate-(135deg, #C8CDD4 0%, #E8300 text-sm">Телефон</labelEAED 50%, #C>
+                      <p className="text-white">8CDD4 100%)',+7 (999) 123-45-67
+				'electric-gradient': </p>
+                    </div>
+                    'linear-gradient(135deg, #0EA5E9 0%, #33C3F0 <Button className="bg-blue-600 hover:bg50%, #1EAEDB 100%)',
+				-blue-700">
+                      Редактировать профиль
+                'premium-gradient': 'linear-gradient    </Button>
+                  </CardContent>(135deg, #7E69AB 0%, #9
+                </Card>
+              </Tabb87f5 100sContent>
+
+              <Tabs%)'
+			},Content value="settings" className="mt-6">
+                <Card className="bg-slate-800 border-slate-700
+			boxShadow: {
+				'">
+                  <CardHeader>automotive': '0 10px 30px rgba(0, 
+                    <CardTitle className="text-white">Настройки аккаунта</CardTitle>0, 0, 0.
+                  </CardHeader>3), 0 1px 8px rgba(0
+                  <CardContent className="space, 0, 0, -y-6">
+                    0.2)',
+				'chrome': '0 8px 25<div>
+                      <h3 className="text-white font-semibpx rgba(200, 205old mb-2">Уведомления</h, 212, 0.15)',
+				'electric': '03>
+                      <div className 8px 25px rgba(14, 165, 233,="space-y-2">
+                        <div className="flex items 0.25)',
+				'-center justify-between">
+                          <span className="text-premium': '0 8px 25px rgba(slate-300">Email155, 135, 245, 0.25)'
+			}, уведомления</span>
+			borderRadius: {
+                          <Button variant="outline" size="sm">
+				lg: 'var(--radius)',Включено</Button>
+				md: 'calc(var(--radius) - 2
+                        </div>
+                        px)',
+				sm: '<div className="flex items-center justify-between">
+                          calc(var(--radius) - 4px)',
+				'<span className="text-slate-300">SMS уведомления</span>
+                          <Button variant="outline" size="sm">Отключено</Button>automotive': '12px'
+                        </div>
+                      
+			},
+			keyframes: {
+				'accordion-down': {</div>
+                    </div
+					from: { height: '0' },
+					to: { height: '>
+                    <div>
+                      <h3 className="var(--radix-accordion-content-height)' }
+				text-white font-semibol},
+				'accordion-up': {
+					fromd mb-2">Без: { height: 'var(опасность</h3>--radix-accordion-content-
+                      <Button className="bg-height)' },
+					to:blue-600 hover { height: '0' }
+				},
+				'fade-in': {
+					'0:bg-blue-700">%': { opacity: '0',
+                        Изменить пароль
+                      </Button> transform: 'translateY(20px)' },
+                    </div>
+                  
+					'100%': { opacity</CardContent>
+                </Card>
+              </TabsContent>: '1', transform: 'translateY(0
+            </Tabs>
+          </div>)' }
+				},
+				'slide
+        </div>
+      </div-up': {
+					'0%': {>
+
+      <Footer />
+     transform: 'translateY(100%)' },</div>
+  );
+};
+
+export default Profile
+					'100%': { transform: 'translateY;

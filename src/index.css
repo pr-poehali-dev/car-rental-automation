@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -35,19 +37,12 @@
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -96,6 +91,50 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-roboto;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-montserrat;
+  }
+}
+
+@layer components {
+  .automotive-card {
+    @apply bg-gradient-to-br from-automotive-steel to-automotive-graphite;
+    @apply border border-automotive-silver/20;
+    @apply shadow-automotive;
+    @apply transition-all duration-500;
+    @apply hover:shadow-electric;
+    @apply hover:border-automotive-electric/40;
+  }
+
+  .automotive-button {
+    @apply bg-electric-gradient;
+    @apply text-white font-montserrat font-semibold;
+    @apply shadow-electric;
+    @apply transition-all duration-300;
+    @apply hover:scale-105 hover:shadow-premium;
+  }
+
+  .automotive-text-gradient {
+    @apply bg-gradient-to-r from-automotive-chrome to-automotive-platinum;
+    @apply bg-clip-text text-transparent;
+  }
+
+  .shimmer-effect {
+    @apply relative overflow-hidden;
+  }
+
+  .shimmer-effect::before {
+    content: "";
+    @apply absolute top-0 left-0 w-full h-full;
+    @apply bg-gradient-to-r from-transparent via-white/10 to-transparent;
+    @apply animate-shimmer;
   }
 }
