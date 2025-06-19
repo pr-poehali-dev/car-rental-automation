@@ -79,6 +79,12 @@ export default {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      boxShadow: {
+        automotive:
+          "0 10px 30px -10px rgba(66, 153, 225, 0.3), 0 4px 15px -5px rgba(74, 85, 104, 0.4)",
+        electric:
+          "0 15px 35px -10px rgba(66, 153, 225, 0.5), 0 8px 20px -5px rgba(66, 153, 225, 0.2)",
+      },
       keyframes: {
         "accordion-down": {
           from: {
