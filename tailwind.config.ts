@@ -23,6 +23,13 @@ export default {
         montserrat: ["Montserrat", "sans-serif"],
       },
       colors: {
+        // Automotive color palette
+        automotive: {
+          steel: "#4a5568",
+          graphite: "#2d3748",
+          silver: "#a0aec0",
+          electric: "#4299e1",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

@@ -106,7 +106,7 @@
 
 @layer components {
   .automotive-card {
-    @apply bg-gradient-to-br from-automotive-steel to-automotive-graphite;
+    @apply bg-gradient-to-br from-slate-700 to-slate-900;
     @apply border border-automotive-silver/20;
     @apply shadow-automotive;
     @apply transition-all duration-500;
